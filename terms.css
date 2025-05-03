@@ -1,0 +1,67 @@
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#ff6600,black);
+    font-family:  sans-serif;
+    margin: 0;
+}
+.page-container{
+    border-radius: 60px;
+    border: solid #ff6600 10px;
+    background-image: url(carl.jpg);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+.terence{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.terence h1{
+    font-size: 36px;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+.ocampo h2{
+    font-size: 24px;
+    color: #ff6600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.ocampo p{
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.back-btn{
+  margin-top: 25px;
+  padding: 10px 25px;
+  background: transparent;
+  color: #ffcc00;
+  border: 2px solid #ff6600;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+.back-btn a{
+  font-size: 20px;
+  color: #ff6600;
+  text-decoration: none;
+  font-weight: bold;
+}
+.back-btn:hover {
+  box-shadow: 0px 0px 15px #ff6600;
+  background-color: white;
+}
+.back-btn:hover a{
+    color: #ff6600;
+}

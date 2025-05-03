@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(#ff6600,black);
+      font-family: sans-serif;
+    }
+
+    .rating-box {
+      background-color: black;
+      border: solid #ff6600 20px;
+      padding: 40px 30px;
+      border-radius: 15px;
+      text-align: center;
+      width: 400px;
+    }
+
+    .rating-box h1 {
+      color: #ff6600;
+      margin-bottom: 25px;
+      font-size: 24px;
+    }
+
+    .stars {
+      direction: rtl;
+      unicode-bidi: bidi-override;
+      font-size: 45px;
+      display: inline-block;
+    }
+
+    .stars input {
+      display: none;
+    }
+
+    .stars label {
+      color: gray;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+    .stars label:hover ~ label {
+      color: #ff6600;
+    }
+    .stars input:checked ~ label{
+      color: #ff6600;
+    }
+    .stars label:hover{
+      color: #ff6600;
+    }
+
+.caption {
+ margin-top: 20px;
+ font-size: 14px;
+ color: white;
+}
+
+  .back-btn {
+  margin-top: 25px;
+  padding: 10px 25px;
+  background: transparent;
+  color: #ffcc00;
+  border: 2px solid #ff6600;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+.back-btn a{
+  font-size: 20px;
+  color: #ff6600;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-btn:hover {
+  box-shadow: 0px 0px 15px #ff6600;
+  background-color: white;
+}
+.back-btn:hover a{
+    color: #ff6600;
+}
